@@ -1,10 +1,10 @@
 # RubicsCubeOpenGL
 
-This is an OPENGL usage in c++ demonstrating a rubics cube(n $\cross$ n) and animating its rotations along particular axises.
+This is an OPENGL usage in c++ demonstrating a rubics cube(n X n) and animating its rotations along particular axises.
 
 The usage is really simple
 
-$ g++ rubics.cpp cube.hpp solver.hpp animater.hpp -lglut -lGLU -lGL -lm -fPIC -I /usr/include/eigen3 -o rubics 
+**$ g++ rubics.cpp cube.hpp solver.hpp animater.hpp -lglut -lGLU -lGL -lm -fPIC -I /usr/include/eigen3 -o rubics**
 
 
 It has got an **eigen** dependency as well as obviously **glut** for openGL
@@ -20,6 +20,6 @@ Do not feel like doing it anymore now...
 
 After doing 
 
-$ ./rubics 
+**$ ./rubics**
 
 use the number keys to observe some rotation animations
